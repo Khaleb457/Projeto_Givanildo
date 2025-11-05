@@ -18,6 +18,7 @@ O projeto foi desenvolvido aplicando os conceitos de **engenharia de software** 
 ```bash
 📁 Projeto_Givanildo/
 │
+├── 📁 documentação/       # Documentação e Diagramas
 ├── 📁 data/               # Modelos conceitual, lógico e físico + dicionário de dados
 ├── 📁 config/             # Arquivos de configuração e conexão com o banco (db.php via PDO)
 ├── 📁 controller/         # Controladores (CategoriaController.php, UserController.php, TarefaController.php)
