@@ -1,0 +1,37 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+
+actor Cliente as C
+
+' Casos de uso principais
+usecase "Realizar login" as UC_Login
+usecase "Gerenciar tarefas" as UC_Tarefas
+usecase "Gerenciar categorias" as UC_Categorias
+
+' Casos de uso detalhados (incluídos nos genéricos)
+usecase "Criar tarefa" as UC_CriarTarefa
+usecase "Editar tarefa" as UC_EditarTarefa
+usecase "Excluir tarefa" as UC_ExcluirTarefa
+usecase "Alterar status da tarefa" as UC_AlterarStatus
+
+usecase "Criar categoria" as UC_CriarCategoria
+usecase "Editar categoria" as UC_EditarCategoria
+usecase "Excluir categoria" as UC_ExcluirCategoria
+
+' Relacionamentos principais
+C --> UC_Login
+C --> UC_Tarefas
+C --> UC_Categorias
+
+' Inclusões de funcionalidades específicas
+UC_Tarefas --> UC_CriarTarefa : <<include>>
+UC_Tarefas --> UC_EditarTarefa : <<include>>
+UC_Tarefas --> UC_ExcluirTarefa : <<include>>
+UC_Tarefas --> UC_AlterarStatus : <<include>>
+
+UC_Categorias --> UC_CriarCategoria : <<include>>
+UC_Categorias --> UC_EditarCategoria : <<include>>
+UC_Categorias --> UC_ExcluirCategoria : <<include>>
+
+@enduml

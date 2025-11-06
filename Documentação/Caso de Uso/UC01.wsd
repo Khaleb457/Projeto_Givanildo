@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+actor Cliente as c
+usecase "Realizar login com email e senha" as UC1
+usecase "Criação de tarefas com titulo e descrição" as UC2
+usecase "Edição de tarefas cadastradas" as UC3
+usecase "Exclusão de tarefas" as UC4
+usecase "Mudança de Status das tarefas" as UC5
+usecase "Criação de categorias" as UC6
+usecase "Edição de categorias" as UC7
+usecase "Exclusão de categorias" as UC6
+
+
+c --> UC1
+c --> UC2
+c --> UC3
+c --> UC4
+c --> UC5
+c --> UC6
+c --> UC7
+
+
+
+
+@enduml
