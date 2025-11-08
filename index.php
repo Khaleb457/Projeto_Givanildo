@@ -1,7 +1,8 @@
     <?php
         require_once __DIR__ . '/view/partials/header.php';
         require_once __DIR__ . '/view/partials/sidebar.php';
-    ?>
+        require_once __DIR__ . '/utils/SecurityGuard.php';
+    ?>              
     <div class="main-container">
 
         <div class="card-column tarefas">

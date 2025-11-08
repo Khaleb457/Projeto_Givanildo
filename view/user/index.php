@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="public/assets/css/style.css">
+    <link rel="stylesheet" href="../../public/assets/css/style.css">
     <title>Gerenciador de Tarefas - Login</title>
 </head>
 <body>
     <main class="container">
         <form>
-                <h1>Login</h1>
+                <h1>Login</h1>  
                 <div class = "input-box">
                     <input placeholder="Email" type="email">  
                     <i class="bx bxs-user"></i> 

@@ -1,6 +1,5 @@
 <?php
-require_once __DIR__ ."../../modal/modalCategoria.php";
-require_once __DIR__ ."../../modal/modalTarefa.php";        
+require_once __DIR__ ."../../modal/modalTarefa.php";                
 
 ?>
 <div class="modal-overlay" id="taskModalOverlay">
