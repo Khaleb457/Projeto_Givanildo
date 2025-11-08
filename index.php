@@ -65,6 +65,7 @@
             </div>
     </div>
 <?php
-    require_once __DIR__ . '/view/partials/modalCategoria.php';
+    require_once __DIR__ . '/view/partials/modal/modalCategoria.php';
+    require_once __DIR__ . '/view/partials/modal/modalTarefa.php';
     require_once __DIR__ . '/view/partials/footer.php';
 ?>
