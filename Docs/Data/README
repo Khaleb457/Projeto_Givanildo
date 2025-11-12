@@ -1,13 +1,16 @@
 # 📁 Projeto Givanildo — Estrutura e Documentação do Repositório
+
 Este repositório reúne todos os **artefatos de modelagem e documentação de dados** do **Projeto Givanildo**, além da **estrutura SQL exportada do banco MySQL**.  
 O conteúdo foi reorganizado durante a tarefa _"Front-end — mudança de pastas"_, com o objetivo de padronizar e centralizar os arquivos técnicos do projeto referente ao banco de dados.
 
+---
 
---- 
-## ⚙️ Ferramentas utilizadas: 
+## ⚙️ Ferramentas Utilizadas
+
 - **BRModelo** — Modelagem conceitual e lógica  
 - **MySQL** — Implementação física  
 - **Excel** — Dicionário de Dados  
 - **VS Code / GitHub** — Documentação e versionamento
 
---- 
+---
+
